@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PROJECT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="head"><h1>MedNeeds</h1></header>
+        <nav class="navigation"><a href="home.html">HOME</a>&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp<a href="d3js.html">USER PROFILE</a>&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="login.html">{% load socialaccount %}
+
+{% if user.is_authenticated %}
+<p>Welcome {{ user.username }} !!!</p>
+<p><a href="{% url 'account_logout' %}">Log out</a>
+{% else %}
+<p><a href="{% url 'account_signup' %}">Sign Up</a></p>
+<p><a href="{% url 'account_login' %}">Log In </a></p>
+<p><a href="{% provider_login_url 'google' %}">Log In with Gmail</a></p>
+{% endif %}</a>
+        </nav>
+        <article class="article">
+            <p>Select a Disease</p>
+            <ul class="list">
+                <li><a href="d1.html" class="link">Influenza</a></li>
+                <li><a href="d2.html" class="link">Malaria</a></li>
+                <li><a href="d3.html" class="link">Hepatitis</a></li>
+                <li><a href="d4.html" class="link">Chicken Pox</a></li>
+            </ul>
+        </article>       
+        <footer>
+            &copy;MedNeeds&nbsp;|Designed by AVIRAL JAIN
+        </footer>    
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+.container{
+    border: 3px solid black;
+    margin: 10px 200px;
+    box-shadow: 0px 9px 23px 10px;
+    height: auto;
+}
+.head{
+    color:lavenderblush;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 30px;
+    background-image: url("image7.jpg");
+    background-size: cover;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+.navigation{
+    background-color: #3b7687;
+    padding: 8px;
+}
+.article p{
+    color: rgb(5, 47, 63);
+    font-size: 30px;
+    margin-left: 50px;
+}
+.article{
+    background-image: url("image3.jpg");
+    background-repeat: round;
+    padding-bottom: 50px;
+}
+#image{
+    float: right;
+    margin-right: 50px;
+}
+.list{
+    margin-left: 30px;
+}
+footer{
+    font-size: 12px;
+    margin: 60px 0 0 10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+/************************diseases***************************/
+
+.about{
+    margin: 0 10px 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.symptoms{
+    margin: 0 10px 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.medication{
+    margin: 0 10px 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.doctor{
+    text-align: center;
+    margin-top: 30px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/*********************LOGIN***********************/
+
+.form1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 218px;
+    opacity: 0.8;
+    background-color: cadetblue;
+}
+.form{
+    background-image: url(image8.jpg);
+    background-size: cover;
+    padding: 200px 400px 200px 400px;
+}
