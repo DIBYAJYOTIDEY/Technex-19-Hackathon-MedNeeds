@@ -9,8 +9,7 @@
     text-align: left;
     padding-left: 20px;
     font-size: 30px;
-    {% load static %}
-    background-image: url({% static "image7.jpg" %});
+    background-image: url("image7.jpg" );
     background-size: cover;
 }
 .navigation a{
@@ -27,7 +26,7 @@
     margin-left: 50px;
 }
 .article{
-    background-image: url({% static "image3.jpg" %});
+    background-image: url("image3.jpg" );
     background-repeat: round;
     padding-bottom: 50px;
 }
@@ -85,7 +84,7 @@ footer{
     background-color: cadetblue;
 }
 .form{
-    background-image: url({% static "image8.jpg"%});
+    background-image: url( "image8.jpg");
     background-size: cover;
     padding: 200px 400px 200px 400px;
 }
